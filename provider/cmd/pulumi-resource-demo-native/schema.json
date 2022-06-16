@@ -1,8 +1,8 @@
 {
-    "name": "xyz",
+    "name": "demo-native",
     "version": "0.0.1",
     "resources": {
-        "xyz:index:Random": {
+        "demo-native:index:Random": {
             "properties": {
                 "length": {
                     "type": "integer"
@@ -33,7 +33,7 @@
         },
         "go": {
             "generateResourceContainerTypes": true,
-            "importBasePath": "github.com/pulumi/pulumi-xyz/sdk/go/xyz"
+            "importBasePath": "github.com/pulumi/pulumi-demo-native/sdk/go/demo"
         },
         "nodejs": {
             "dependencies": {

@@ -17,11 +17,11 @@ package main
 
 import (
 	_ "embed"
-	"github.com/pulumi/pulumi-xyz/provider/pkg/provider"
-	"github.com/pulumi/pulumi-xyz/provider/pkg/version"
+	"github.com/pulumi/pulumi-demo-native/provider/pkg/provider"
+	"github.com/pulumi/pulumi-demo-native/provider/pkg/version"
 )
 
-var providerName = "xyz"
+var providerName = "demo-native"
 
 //go:embed schema-embed.json
 var pulumiSchema []byte

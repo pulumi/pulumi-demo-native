@@ -11,11 +11,11 @@ _utilities.register(
     resource_modules="""
 [
  {
-  "pkg": "xyz",
+  "pkg": "demo-native",
   "mod": "index",
-  "fqn": "pulumi_xyz",
+  "fqn": "pulumi_demo_native",
   "classes": {
-   "xyz:index:Random": "Random"
+   "demo-native:index:Random": "Random"
   }
  }
 ]
@@ -23,9 +23,9 @@ _utilities.register(
     resource_packages="""
 [
  {
-  "pkg": "xyz",
-  "token": "pulumi:providers:xyz",
-  "fqn": "pulumi_xyz",
+  "pkg": "demo-native",
+  "token": "pulumi:providers:demo-native",
+  "fqn": "pulumi_demo_native",
   "class": "Provider"
  }
 ]
